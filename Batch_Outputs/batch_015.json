@@ -480,14 +480,12 @@
       "Titre 3: Recherche",
       "Titre 4: Exploitation",
       "Titre 5: Droits annexes (occupation, abandon)",
+      "Titre 6: Participation de l'Entreprise Nationale",
       "Titre 7: Fiscalité et Douanes",
       "Titre 9: Contrôle",
       "Titre 10: Infractions et pénalités"
     ],
-    "sections_not_covered": [
-      "Titre 6: Participation de l'Entreprise Nationale",
-      "Titre 8: Sociétés de services"
-    ],
+    "sections_not_covered": [],
     "notes": "Les scénarios simulent les requêtes d'ingénieurs, de dirigeants de compagnies pétrolières et d'investisseurs, couvrant tout le cycle de vie pétrolier (de la recherche à l'abandon du site) ainsi que la fiscalité et les sanctions. Le multi-hop exige l'application de principes, de conditions d'octroi et de sanctions financières."
   }
 }
