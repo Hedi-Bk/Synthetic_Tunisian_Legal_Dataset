@@ -408,6 +408,69 @@
           "content": "Bé, klemek fih wa fih. L principe fil Code des hydrocarbures (Article 105) y9oul elli mademek titulaire mta3 permis de recherche, rak mo3fé (exonéré) men barcha impôts, droits w taxes directs w indirects mta3 l dawla w l baladiyet [1].\n\nAma famma exceptions watha7in ! L 9anoun y9oul elli l exonération hedhi ma temchich 3la l'impôts elli mathkourin fel articles 100 w 101. Ma3neha rak dima majbour to5les:\n- L droits d'enregistrement mta3 l contrats.\n- L taxes 3al kraheb mta3 l transport (Article 100).\n- L droit fixe w l taxe fixe 3la kol hectare (Article 101).\n\nDonc, mouch s7i7 elli enti mo3fé 100%, famma minimum mta3 taxes lezem tkhaleshom.\n\nHedha mouch conseil juridique. 7asb 7aletk, a7ki m3a avocat.\nSources: art. 101, 105 du Code des hydrocarbures."
         }
       ]
+    },
+    {
+      "example_id": "ex_ch_18",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["70.2"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis gérant d'une entreprise étrangère qui a fait une découverte de gaz commercialement exploitable en Tunisie. Nous n'avons pas notifié notre décision de développement dans les délais légaux (4 ans). L'Autorité concédante a donc décidé de transférer cette découverte à l'Entreprise Nationale (ETAP). Le code des hydrocarbures prévoit-il une compensation financière pour nous dans ce cas, et à quelle hauteur par rapport aux bénéfices nets ?\n\nDocuments pertinents:\n[1] Source: Article 70.2 du Code des hydrocarbures\nEn contrepartie, l'Entreprise Nationale verse chaque année au Titulaire vingt pour cent (20 %) des bénéfices nets d'exploitation calculés, pour les produits, sur la base du prix de cession défini à l'article 73 du présent Code et pour les charges, sur la base des dépenses de développement et d'exploitation réalisées par l'Entreprise Nationale sur le gisement."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 70.2 du Code des hydrocarbures, l'État prévoit effectivement une compensation financière en votre faveur en cas de transfert de la découverte.\n\nEn contrepartie de ce transfert, l'Entreprise Nationale est tenue de vous verser chaque année vingt pour cent (20 %) des bénéfices nets d'exploitation [1]. Ces bénéfices sont calculés sur la base du prix de cession pour les produits, après déduction des charges relatives aux dépenses de développement et d'exploitation engagées par l'Entreprise Nationale sur ce gisement [1].\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 70.2 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_19",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": ["118"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que directeur financier d'une société pétrolière exploitant un gisement offshore (en mer) depuis 8 ans, je dois préparer le budget à long terme pour la fermeture future du site. La loi nous autorise à constituer une provision pour faire face aux dépenses d'abandon et de remise en état. Sur combien d'exercices financiers cette provision doit-elle être calculée pour un site localisé en mer ?\n\nDocuments pertinents:\n[1] Source: Article 118 du Code des hydrocarbures\nLe Titulaire d'une Concession d'Exploitation a le droit de constituer une provision destinée à faire face aux dépenses d'abandon et de remise en état du site d'exploitation.\nLa provision sera constituée au cours des cinq (5) derniers exercices pour un site localisé en mer et au cours des trois (3) derniers exercices pour un site localisé à terre. L'Autorité Concédante pourra, sur demande dûment justifiée [...] autoriser ce dernier à constituer ladite provision sur une période plus longue..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 118 du Code des hydrocarbures, le titulaire d'une concession d'exploitation est en droit de constituer une provision fiscale pour couvrir les futures dépenses d'abandon et de remise en état du site [1].\n\nPour un site localisé en mer (offshore), cette provision doit être constituée au cours des cinq (5) derniers exercices financiers de l'exploitation. À titre de comparaison, ce délai n'est que de trois (3) exercices pour un site à terre [1]. Si nécessaire, vous pouvez également formuler une demande justifiée auprès de l'Autorité Concédante pour étaler cette provision sur une période plus longue.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 118 du Code des hydrocarbures."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ch_20",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["23", "26.1"],
+      "confidence_flag": "",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je suis le directeur technique d'une société pétrolière qui détient un Permis de Recherche couvrant une superficie de 1000 kilomètres carrés. Nous arrivons bientôt à la fin de notre première période de validité et nous souhaitons déposer une demande pour notre premier renouvellement afin de continuer nos explorations. Nous voulons conserver la plus grande surface possible. Pouvons-nous garder les 1000 km² intacts pour la prochaine période ? Quelle est la règle exacte de réduction de la surface imposée par le code lors du premier et du second renouvellement ?\n\nDocuments pertinents:\n[1] Source: Article 23 du Code des hydrocarbures\nLe Titulaire d'un Permis de Recherche a le droit de renouveler son permis pour deux (2) périodes successives, chacune d'elles ayant une durée de validité n'excédant pas les quatre (4) ans, sous réserve qu'il ait : a) rempli les obligations auxquelles il est tenu...\n\n[2] Source: Article 26.1 du Code des hydrocarbures\nLa surface du Permis de Recherche, objet de renouvellement, ne peut excéder quatre vingt centièmes (80/100ème) de la totalité de la surface initiale augmentée de toutes extensions du Permis de Recherche lors du premier renouvellement, ni soixante quatre centièmes (64/100ème) de la totalité de cette surface initiale augmentée de toutes extensions lors du second renouvellement."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 23 du Code des hydrocarbures, vous avez le droit de renouveler votre Permis de Recherche pour deux périodes successives (de 4 ans maximum chacune), à condition d'avoir rempli vos obligations de travaux et de dépenses [1].\n\nToutefois, l'article 26.1 impose une restitution partielle obligatoire du périmètre. Vous ne pouvez pas conserver l'intégralité de vos 1000 km². Lors de votre premier renouvellement, la surface conservée ne pourra pas excéder 80 % (80/100ème) de la surface initiale (incluant les éventuelles extensions). Ainsi, vous ne pourrez conserver qu'un maximum de 800 km² [2].\n\nSi vous sollicitez par la suite un second renouvellement, la surface maximale que vous pourrez conserver sera encore réduite et ne pourra excéder 64 % (64/100ème) de cette même surface initiale, soit un maximum de 640 km² [2]. L'étape 1 de votre démarche consistera donc à identifier les 200 km² que vous allez rendre à l'État.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 23, 26.1 du Code des hydrocarbures."
+        }
+      ]
     }
   ],
   "coverage_summary": {
