@@ -1,39 +1,50 @@
-# Génération de Dataset Juridique avec un LLM Teacher
+# **Legal Dataset Generation with a Teacher LLM**
 
-Ce projet est dédié à la création d'un dataset juridique spécialisé en droit tunisien. Le processus de génération est assisté par un "LLM Teacher" pour produire des exemples de questions-réponses complexes et pertinents.
+This project is dedicated to creating a specialized legal dataset for Tunisian law. The generation process is assisted by a "Teacher LLM" to produce complex and relevant question-answer examples.
 
-L'outil principal utilisé pour cette génération est **Google AI Studio** avec le modèle **Gemini 3 Pro**.
+The primary tool used for this generation is **Google AI Studio** with the **Gemini 3 Pro** model.
 
-## Structure du Dépôt
+## **Repository Structure**
 
-Ce dépôt contient les éléments suivants :
+This repository contains the following elements:
 
-- **/Batch_Outputs/** : Ce dossier contient l'ensemble des lots (batches) de données générées au format JSON. Chaque fichier représente un lot de paires de questions-réponses basées sur un texte de loi spécifique.
-- **Output_Sample.json** : Ce fichier sert de modèle et d'exemple pour la structure JSON attendue pour chaque lot de données.
+- **/Batch_Outputs/**: This folder contains all generated data batches in JSON format. Each file represents a batch of question-answer pairs based on a specific legal text.
+- **Output_Sample.json**: This file serves as a template and example for the expected JSON structure for each data batch.
 
-## Structure des Données
+## **Data Structure**
 
-Chaque fichier JSON dans `Batch_Outputs` suit une structure précise pour garantir la cohérence du dataset. Voici les champs principaux :
+Each JSON file in `Batch_Outputs` follows a precise structure to ensure dataset consistency. Here are the main fields:
 
-- `batch_id`: Un identifiant unique pour le lot.
-- `source`: Le nom du texte de loi source (ex: "Code des Douanes de Tunisie").
-- `articles_covered`: Une liste des numéros d'articles qui ont été utilisés pour générer les exemples dans ce lot.
-- `examples`: Une liste d'objets, où chaque objet est un exemple de question-réponse.
-  - `example_id`: Un identifiant unique pour l'exemple.
-  - `language`: La langue de l'exemple (`fr`, `ar`, `derja`).
-  - `category`: La catégorie de raisonnement juridique (ex: `direct`, `multi_article`, `principle_exception`).
-  - `messages`: Une conversation structurée entre un `system`, un `user` et un `assistant`.
-- `coverage_summary`: Un résumé de la couverture des articles du texte de loi dans le lot.
+- `batch_id`: A unique identifier for the batch.
+- `source`: The name of the source legal text (e.g., "Tunisian Customs Code").
+- `articles_covered`: A list of article numbers used to generate the examples in this batch.
+- `examples`: A list of objects, where each object is a question-answer example.
+  - `example_id`: A unique identifier for the example.
+  - `language`: The language of the example (`fr`, `ar`, `derja`).
+  - `category`: The category of legal reasoning (e.g., `direct`, `multi_article`, `principle_exception`).
+  - `messages`: A structured conversation between a `system`, a `user`, and an `assistant`.
+- `coverage_summary`: A summary of the article coverage from the legal text within the batch.
 
-## Mots-clés
+## **Contents of Data**
+
+- Multi-hop reasoning QA pairs
+- Context provided with each question (to simulate chunks coming from RAG to LLMs + Query)
+- Samples in Arabic (MSA and Derja) and French
+
+## **📈 Next Steps**
+
+- Scale to 1000+ samples
+- Human validation with legal expert
+
+## **Keywords**
 
 - Legal Tech
-- Dataset Juridique
-- Génération de Données
+- Legal Dataset
+- Data Generation
 - Large Language Model (LLM)
 - Gemini
 - Google AI Studio
-- Droit Tunisien
+- Tunisian Law
 - Question-Answering (QA)
-- Instruction-Following
+- Instruction Following
 - Fine-tuning
